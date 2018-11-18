@@ -29,9 +29,9 @@ for ($i=8;$i>=1;$i--)
 for ($i=0;$i<8;$i++)
 {
         if ($i%2==0)
-        $color = $black;
+        $color = $white;
         else
-        $color = $white; 
+        $color = $black; 
         for ($y=0;$y<8;$y++)
         {
                 imagefilledrectangle($im,$x1=100+$i*100,$y1=100+$y*100,$x1+100,$y1+100,$color);
